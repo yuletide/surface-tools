@@ -1,3 +1,0 @@
-Things that still need to be done:
-* Update palmreject to python3/gtk+3
-* Save and load current state of autobacklight and autorotate to/from disk.
