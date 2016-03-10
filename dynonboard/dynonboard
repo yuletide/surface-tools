@@ -4,7 +4,7 @@
 onboard="/usr/bin/onboard"
 keyboardname="Microsoft Surface Type Cover Keyboard"
 
-nameisdouble=True
+nameisdouble=False
 
 #####PROGRAM CODE#####
 #Do not change unless you know what you are doing!
