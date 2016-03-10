@@ -2,7 +2,7 @@
 
 #####CONFIGURATION#####
 onboard="/usr/bin/onboard"
-keyboardname="MICROSOFT SAM"
+keyboardname="Microsoft Surface Type Cover Keyboard"
 
 nameisdouble=True
 
