@@ -3,7 +3,7 @@
 #####CONFIGURATION#####
 sensorname="accel_3d"
 
-screenname="LVDS1"
+screenname="eDP1"
 
 #####PROGRAM CODE#####
 #Do not change unless you know what you are doing!
