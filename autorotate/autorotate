@@ -117,7 +117,7 @@ if __name__ == "__main__":
 
     global icon
     if hasAppIndicator:
-        icon = AppIndicator.Indicator.new("autorotate", unlockrot, AppIndicator.IndicatorCategory.APPLICATION_STATUS)
+        icon = AppIndicator.Indicator.new("autorotate", "unlockrot", AppIndicator.IndicatorCategory.APPLICATION_STATUS)
         icon.set_status(AppIndicator.IndicatorStatus.ACTIVE)
         menu = Gtk.Menu()
         global toggle
