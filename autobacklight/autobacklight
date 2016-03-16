@@ -8,6 +8,8 @@ ambientlightmax=2000
 
 fadetime=1000
 
+offset=1
+
 #####PROGRAM CODE#####
 #Do not change unless you know what you are doing
 
@@ -70,7 +72,7 @@ def checkLight():
         backlight = mappingFunction(ambientlight)
 
         if backlight != prevbacklight:
-            setBacklight(backlight + 1)
+            setBacklight(backlight + offset)
     GObject.timeout_add(1000, checkLight)
 
 
