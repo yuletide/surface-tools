@@ -1,0 +1,32 @@
+TODO:
+
+1) AutoBacklight may be a little sensitive, come up with an algorithm that ups it by a percentage of the sensor value instead of adding 50 arbitrarily like we are, lol.
+
+2) So, I ran the palmreject script once, never had to again? Not sure what the hell is up there.
+
+3) Find a better way to execute these in user-context and keep app indicators (calling from .bash_profile (or .bashrc) or profile.d results in crashes/no AppIndicators in StatusBar).
+
+4) Dynonboard works well, but has a fatal flaw, no dynamic window resizing to account for on screen apps (like in Windows), no clue if this is possible.
+
+5) If Onbaord is closed manually, the script doesn't restart
+
+6) GRUB has no Power Off Key/Volume +/- OS Selection/Windows Button Choose support. No clue where to begin.
+
+7) TouchPad 3/4/5 Finger gestures aren't simple to map, need to make a script to auto-map them
+
+8) Update Python2 Scripts to Python3 (not necessary, jsut for simplicities sake)
+
+9) Make all of these scripts work on LockScreen (mainly Dynonboard, but others would be nice)
+
+10) Force WebCam HAL to use second highest resolution, as Windows does, because the Camera Sensor just can't handle it (jerky, choppy video, etc.)
+
+11) Make a GCC compliant make file to pull in the kernel repo and build upon 'make', then 'make install' installs the kernel package, and places the scripts and sets them to auto-start on system start
+
+12) Port all of this to Android-x86 (see device tree 'android_device_microsoft_sp3' for more info on that)
+
+13) Optional UEFI Shim to skip GRUB if users don't have Windows/Other Bootable medium installed
+
+14) Make Pen Rear Button work
+
+15) Make Pen Right Click Button work
+
