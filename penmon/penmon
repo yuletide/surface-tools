@@ -1,9 +1,10 @@
 #!/usr/bin/python
 
 #####CONFIGURATION#####
-screen="eDP1"
+screen="eDP-1"
 inputnames=[
-        "NTRG0001:01 1B96:1B05 Pen"
+        #"NTRG0001:01 1B96:1B05 Pen"
+        "ipts 1B96:001F Touchscreen"
         ]
 
 #####PROGRAM CODE#####
